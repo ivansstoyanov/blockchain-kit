@@ -1,6 +1,13 @@
 # Blockchain Dapp with React and Hardhat
 
 This is a simple blockchain Dapp that allows users to connect a wallet, check ERC20 balances and interact with wrapping and swapping tokens. The Dapp is built using React and Hardhat.
+The Dapp includes:
+
+- connect wallet using Metamask
+- show balances for ERC20 tokens
+- show current price with Chainlink oracles
+- wrap ETH to WETH
+- swap tokens using Uniswap
 
 ## DEMO
 

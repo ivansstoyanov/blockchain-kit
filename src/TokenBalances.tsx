@@ -111,7 +111,7 @@ function TokenBalances() {
       }
     }
     fetchErcBalances();
-  }, [library, account, blockNumber]);
+  }, [dispatch, library, account, blockNumber]);
 
   const handleAddToken = async () => {
     if (!newTokenAddress) return;
