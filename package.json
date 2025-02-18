@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "license": "MIT",
-  "homepage": "https://ivansstoyanov.github.io/tes",
+  "homepage": "https://ivansstoyanov.github.io/blockchain-kit",
   "description": "blockchian starter kit",
   "engines": {
     "node": "^18.1.0",
