@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-local": "dotenv -- bash -c 'npx hardhat node --fork $MAINNET_KEY --fork-block-number 21861100 --hostname localhost --port 8545'"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "2.1.8",
+    "@nomiclabs/hardhat-waffle": "2.0.2",
+    "@typechain/ethers-v5": "7.2.0",
+    "@typechain/hardhat": "2.3.1",
+    "dotenv": "16.0.1",
+    "dotenv-cli": "5.1.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.18",
+    "ts-node": "10.4.0",
+    "typechain": "5.2.0",
+    "typescript": "^4.9.5"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
